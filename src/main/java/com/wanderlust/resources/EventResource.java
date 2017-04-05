@@ -55,8 +55,8 @@ public class EventResource {
 	@PUT
 	@Path("/{event_id}/about")
 	public DBObject setEventAbout(
-			@PathParam("event_id") String event_id, @QueryParam("about")String about) throws UnknownHostException {
-		DBObject result = ExtendedEventService.updateEventAbout(event_id, about);
+			@PathParam("event_id") String eventid, @QueryParam("about")String about) throws UnknownHostException {
+		DBObject result = ExtendedEventService.updateEventAbout(eventid, about);
 		return result;
 	}
 
