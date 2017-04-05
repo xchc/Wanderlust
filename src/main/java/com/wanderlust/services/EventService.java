@@ -6,7 +6,7 @@ import com.wanderlust.api.User;
 import com.wanderlust.api.ServiceException;
 import com.wanderlust.api.Event;
 
-public interface EventService extends Service
+ public interface EventService extends Service
 {
 
     public void verifyEvent(String eventId) throws ServiceException;

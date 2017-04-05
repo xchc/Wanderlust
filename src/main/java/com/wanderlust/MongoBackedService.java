@@ -36,7 +36,7 @@ public abstract class MongoBackedService implements Service {
 			throw ServiceException.wrap(e, DatabaseError.CANNOT_CONNECT);
 		}
 	}
-
+/*  */
 	public void shutdown(long timeout, TimeUnit unit) {
 		if(this.client != null){
 			client.close();

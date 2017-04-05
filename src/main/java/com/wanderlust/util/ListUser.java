@@ -7,8 +7,8 @@ public class ListUser<T> {
     protected final List<T> subject;
     protected int currentIndex = 0;
     
-    public ListUser(List<T> subject){
-        this.subject = subject;
+    public ListUser(List<T> subjec){
+        this.subject = subjec;
         currentIndex = 0;
     }
 
