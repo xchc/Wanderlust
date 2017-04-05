@@ -2,4 +2,4 @@ mongodb:
     default_database_uri: mongodb://127.0.0.1:27017/wanderlustTest4
 
 baseurl:
-	https://gentle-scrubland-25829.herokuapp.com/
+	https://murmuring-atoll-26821.herokuapp.com/
